@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/responsive_orientation_builder.dart';
 import 'package:portfolio/controller/tag/profile_picture_custom.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:portfolio/controller/tag/software_developer_custom.dart';
 import 'package:portfolio/controller/tag/logo_custom.dart';
 import 'package:portfolio/controller/tag/home_custom.dart';
 import 'package:portfolio/controller/tag/social_custom.dart';
-import 'package:portfolio/controller/tag/contact_me_custom.dart';
+import 'package:portfolio/controller/tag/projects_custom.dart';
 import 'package:portfolio/widgets/page_1/scroll_down.g.dart';
 
 class Landing extends StatefulWidget {
@@ -109,21 +110,19 @@ class _Landing extends State<Landing> {
               width: 354.0,
               top: 250.0,
               height: 44.0,
-              child: Container(
-                  width: 354.000,
-                  height: 44.000,
+              child: SoftwareDeveloperCustom(
                   child: AutoSizeText(
-                    'Software Developer',
-                    style: TextStyle(
-                      fontFamily: 'PT Mono',
-                      fontSize: 30,
-                      fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.normal,
-                      letterSpacing: 0,
-                      color: Color(0xff00ff66),
-                    ),
-                    textAlign: TextAlign.left,
-                  )),
+                'Software Developer',
+                style: TextStyle(
+                  fontFamily: 'PT Mono',
+                  fontSize: 30,
+                  fontWeight: FontWeight.w400,
+                  fontStyle: FontStyle.normal,
+                  letterSpacing: 0,
+                  color: Color(0xff00ff66),
+                ),
+                textAlign: TextAlign.left,
+              )),
             ),
             Positioned(
               left: 0,
@@ -314,7 +313,7 @@ class _Landing extends State<Landing> {
                   width: 225.0,
                   top: 0,
                   height: 54.0,
-                  child: ContactMeCustom(
+                  child: ProjectsCustom(
                       child: Stack(children: [
                     Positioned(
                       left: 0,
