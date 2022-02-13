@@ -28,7 +28,7 @@ jobs:
         
       # Build web
       - name: Build Flutter Web 
-        run: flutter build web --base-href=/portfolio-dev/
+        run: flutter build web --base-href=/flutter-portfolio-site/
         
       # Deploy
       - name: Deploy to GH Pages
