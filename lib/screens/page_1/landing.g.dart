@@ -133,7 +133,7 @@ class _Landing extends State<Landing> {
                   width: 373.000,
                   height: 105.000,
                   child: AutoSizeText(
-                    'Ocassionally watches movies, shows, and plays games.',
+                    'Occasionally watches movies, shows, and plays games.',
                     style: TextStyle(
                       fontFamily: 'PT Sans',
                       fontSize: 24,
