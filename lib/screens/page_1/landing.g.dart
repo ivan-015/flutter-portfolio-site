@@ -54,14 +54,14 @@ class _Landing extends State<Landing> {
         Positioned(
           right: 116.0,
           width: 446.0,
-          top: 365.0,
-          height: 294.0,
+          top: 324.0,
+          height: 353.0,
           child: ProfilePictureCustom(
               child: Image.asset(
             'assets/images/5_34.png',
             package: 'portfolio',
             width: 446.000,
-            height: 294.000,
+            height: 353.000,
             fit: BoxFit.none,
           )),
         ),
