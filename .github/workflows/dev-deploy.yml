@@ -28,13 +28,13 @@ jobs:
         
       # Build web
       - name: Build Flutter Web 
-        run: flutter build web
+        run: flutter build web --base-href=portfolio-dev
         
       # Deploy
       - name: Deploy to GH Pages
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          target_branch: development
+          target_branch: portfolio-dev
           build_dir: ./build/web/
         env:
           GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
