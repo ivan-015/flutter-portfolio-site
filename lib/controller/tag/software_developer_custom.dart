@@ -41,8 +41,9 @@ class _SoftwareDeveloperCustomState extends State<SoftwareDeveloperCustom>
             animatedTexts: [
               TypewriterAnimatedText('Software Developer'),
               TypewriterAnimatedText('Movie Enthusiast'),
-              TypewriterAnimatedText('Gamer')
+              TypewriterAnimatedText('Gamer 😎')
             ],
+            repeatForever: true,
           ),
         ),
       ],
