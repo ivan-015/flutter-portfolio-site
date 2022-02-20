@@ -1,4 +1,4 @@
-name: portfolio
+name: sample
 description: A new Flutter project.
 publish_to: none
 version: 1.0.0+1
@@ -16,6 +16,4 @@ dev_dependencies:
 flutter: 
   uses-material-design: true
   assets: 
-    - packages/portfolio/assets/images/I4_27;3_18.png
-    - packages/portfolio/assets/images/I4_27;3_19.png
-    - packages/portfolio/assets/images/5_34.png
+    - packages/sample/assets/images/1_134.png
