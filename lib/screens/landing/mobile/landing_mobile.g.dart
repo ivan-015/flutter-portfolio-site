@@ -9,8 +9,6 @@ import 'package:portfolio/controller/tag/logo_custom.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:portfolio/controller/tag/profile_picture_custom.dart';
 import 'package:portfolio/controller/tag/software_developer_custom.dart';
-import 'package:portfolio/controller/tag/down_arrow_custom.dart';
-import 'package:portfolio/widgets/symbols/down_arrow.g.dart';
 
 class LandingMobile extends StatefulWidget {
   const LandingMobile({
@@ -113,8 +111,8 @@ class _LandingMobile extends State<LandingMobile> {
               ])),
         ),
         Positioned(
-          left: MediaQuery.of(context).size.width * 0.266,
-          width: MediaQuery.of(context).size.width * 0.467,
+          left: MediaQuery.of(context).size.width * 0.296,
+          width: MediaQuery.of(context).size.width * 0.411,
           top: 117.0,
           height: 200.0,
           child: Center(
@@ -155,8 +153,8 @@ class _LandingMobile extends State<LandingMobile> {
                           ]))))),
         ),
         Positioned(
-          left: MediaQuery.of(context).size.width * 0.068,
-          width: MediaQuery.of(context).size.width * 0.871,
+          left: MediaQuery.of(context).size.width * 0.121,
+          width: MediaQuery.of(context).size.width * 0.766,
           top: 336.0,
           height: 417.0,
           child: Center(
@@ -166,18 +164,18 @@ class _LandingMobile extends State<LandingMobile> {
                   decoration: BoxDecoration(),
                   child: Stack(children: [
                     Positioned(
-                      left: 0,
-                      width: 373.0,
-                      top: 0,
-                      height: 226.0,
+                      left: 46.0,
+                      width: 280.0,
+                      top: 41.0,
+                      height: 168.0,
                       child: Container(
-                          width: 373.000,
-                          height: 226.000,
+                          width: 280.000,
+                          height: 168.000,
                           child: AutoSizeText(
                             'Ivan  Vigliante',
                             style: TextStyle(
                               fontFamily: 'Roboto',
-                              fontSize: 96,
+                              fontSize: 72,
                               fontWeight: FontWeight.w400,
                               letterSpacing: 0,
                               color: Colors.white,
@@ -224,22 +222,6 @@ class _LandingMobile extends State<LandingMobile> {
                           )),
                     ),
                   ]))),
-        ),
-        Positioned(
-          left: MediaQuery.of(context).size.width * 0.418,
-          width: MediaQuery.of(context).size.width * 0.164,
-          bottom: 41.0,
-          height: 80.0,
-          child: Center(
-              child: Container(
-                  width: 69.98076629638672,
-                  child: DownArrowCustom(
-                    child: LayoutBuilder(builder: (context, constraints) {
-                      return DownArrow(
-                        constraints,
-                      );
-                    }),
-                  ))),
         ),
       ]),
     );
