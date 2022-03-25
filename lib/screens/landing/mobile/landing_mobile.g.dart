@@ -111,8 +111,8 @@ class _LandingMobile extends State<LandingMobile> {
               ])),
         ),
         Positioned(
-          left: MediaQuery.of(context).size.width * 0.296,
-          width: MediaQuery.of(context).size.width * 0.411,
+          left: MediaQuery.of(context).size.width * 0.306,
+          width: MediaQuery.of(context).size.width * 0.388,
           top: 117.0,
           height: 200.0,
           child: Center(
@@ -126,7 +126,7 @@ class _LandingMobile extends State<LandingMobile> {
                           child: Stack(children: [
                             Positioned(
                               left: 0.597,
-                              width: 200.0,
+                              right: 0,
                               top: 0,
                               height: 200.0,
                               child: Image.asset(
@@ -134,12 +134,12 @@ class _LandingMobile extends State<LandingMobile> {
                                 package: 'portfolio',
                                 width: 200.000,
                                 height: 200.000,
-                                fit: BoxFit.none,
+                                fit: BoxFit.fitWidth,
                               ),
                             ),
                             Positioned(
                               left: 19.701,
-                              width: 161.194,
+                              right: 19.702,
                               top: 19.104,
                               height: 161.194,
                               child: Image.asset(
@@ -147,14 +147,14 @@ class _LandingMobile extends State<LandingMobile> {
                                 package: 'portfolio',
                                 width: 161.194,
                                 height: 161.194,
-                                fit: BoxFit.none,
+                                fit: BoxFit.fitWidth,
                               ),
                             ),
                           ]))))),
         ),
         Positioned(
-          left: MediaQuery.of(context).size.width * 0.121,
-          width: MediaQuery.of(context).size.width * 0.766,
+          left: MediaQuery.of(context).size.width * 0.141,
+          width: MediaQuery.of(context).size.width * 0.723,
           top: 336.0,
           height: 417.0,
           child: Center(
@@ -165,7 +165,7 @@ class _LandingMobile extends State<LandingMobile> {
                   child: Stack(children: [
                     Positioned(
                       left: 46.0,
-                      width: 280.0,
+                      right: 47.0,
                       top: 41.0,
                       height: 168.0,
                       child: Container(
@@ -185,7 +185,7 @@ class _LandingMobile extends State<LandingMobile> {
                     ),
                     Positioned(
                       left: 9.0,
-                      width: 354.0,
+                      right: 10.0,
                       top: 247.0,
                       height: 44.0,
                       child: SoftwareDeveloperCustom(
@@ -203,7 +203,7 @@ class _LandingMobile extends State<LandingMobile> {
                     ),
                     Positioned(
                       left: 0,
-                      width: 373.0,
+                      right: 0,
                       top: 312.0,
                       height: 105.0,
                       child: Container(
