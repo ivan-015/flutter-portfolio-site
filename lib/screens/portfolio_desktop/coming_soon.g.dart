@@ -1,8 +1,16 @@
+// *********************************************************************************
+// PARABEAC-GENERATED CODE. DO NOT MODIFY.
+//
+// FOR MORE INFORMATION ON HOW TO USE PARABEAC, PLEASE VISIT docs.parabeac.com
+// *********************************************************************************
+
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
 class ComingSoon extends StatefulWidget {
-  const ComingSoon({Key? key}) : super(key: key);
+  const ComingSoon({
+    Key? key,
+  }) : super(key: key);
   @override
   _ComingSoon createState() => _ComingSoon();
 }
@@ -30,7 +38,6 @@ class _ComingSoon extends State<ComingSoon> {
                       fontFamily: 'Roboto',
                       fontSize: 96,
                       fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.normal,
                       letterSpacing: 0,
                       color: Colors.white,
                     ),
@@ -52,7 +59,6 @@ class _ComingSoon extends State<ComingSoon> {
                       fontFamily: 'Roboto',
                       fontSize: 96,
                       fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.normal,
                       letterSpacing: 0,
                       color: Colors.white,
                     ),
