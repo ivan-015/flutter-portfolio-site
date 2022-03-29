@@ -31,11 +31,11 @@ class _LandingDesktop extends State<LandingDesktop> {
         Positioned(
           left: MediaQuery.of(context).size.width * 0.476,
           width: MediaQuery.of(context).size.width * 0.049,
-          bottom: 35.0,
-          height: 80.0,
+          bottom: 5.0,
+          height: 152.0,
           child: Center(
               child: Container(
-                  width: 69.98076629638672,
+                  width: 70.0,
                   child: DownArrowCustom(
                     child: LayoutBuilder(builder: (context, constraints) {
                       return DownArrow(

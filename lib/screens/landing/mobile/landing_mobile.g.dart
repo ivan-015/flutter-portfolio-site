@@ -74,12 +74,12 @@ class _LandingMobile extends State<LandingMobile> {
                   width: 30.0,
                   top: 0,
                   height: 3.75,
-                  child: Container(
+                  child: Image.asset(
+                    'assets/images/rectangle2.png',
+                    package: 'portfolio',
                     width: 30.000,
                     height: 3.750,
-                    decoration: BoxDecoration(
-                      color: Color(0xfffffbfb),
-                    ),
+                    fit: BoxFit.none,
                   ),
                 ),
                 Positioned(
@@ -87,12 +87,12 @@ class _LandingMobile extends State<LandingMobile> {
                   width: 30.0,
                   top: 11.25,
                   height: 3.75,
-                  child: Container(
+                  child: Image.asset(
+                    'assets/images/rectangle3.png',
+                    package: 'portfolio',
                     width: 30.000,
                     height: 3.750,
-                    decoration: BoxDecoration(
-                      color: Color(0xfffffbfb),
-                    ),
+                    fit: BoxFit.none,
                   ),
                 ),
                 Positioned(
@@ -100,12 +100,12 @@ class _LandingMobile extends State<LandingMobile> {
                   width: 30.0,
                   top: 22.5,
                   height: 3.75,
-                  child: Container(
+                  child: Image.asset(
+                    'assets/images/rectangle4.png',
+                    package: 'portfolio',
                     width: 30.000,
                     height: 3.750,
-                    decoration: BoxDecoration(
-                      color: Color(0xfffffbfb),
-                    ),
+                    fit: BoxFit.none,
                   ),
                 ),
               ])),
@@ -166,7 +166,7 @@ class _LandingMobile extends State<LandingMobile> {
                     Positioned(
                       left: 46.0,
                       right: 47.0,
-                      top: 41.0,
+                      top: 23.0,
                       height: 168.0,
                       child: Container(
                           width: 280.000,
@@ -184,9 +184,9 @@ class _LandingMobile extends State<LandingMobile> {
                           )),
                     ),
                     Positioned(
-                      left: 9.0,
-                      right: 10.0,
-                      top: 247.0,
+                      left: 10.0,
+                      right: 9.0,
+                      top: 192.0,
                       height: 44.0,
                       child: SoftwareDeveloperCustom(
                           child: AutoSizeText(
@@ -204,7 +204,7 @@ class _LandingMobile extends State<LandingMobile> {
                     Positioned(
                       left: 0,
                       right: 0,
-                      top: 312.0,
+                      top: 251.0,
                       height: 105.0,
                       child: Container(
                           width: 373.000,
