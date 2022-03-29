@@ -14,6 +14,7 @@ import 'package:portfolio/controller/tag/projects_custom.dart';
 class TopBar extends StatefulWidget {
   final constraints;
   final String? ovrProjects;
+  final Widget? ovrRectangle1;
   final String? ovrAbout;
   final String? ovrEyeVanLovesTech;
   final String? ovr;
@@ -21,6 +22,7 @@ class TopBar extends StatefulWidget {
     this.constraints, {
     Key? key,
     this.ovrProjects,
+    this.ovrRectangle1,
     this.ovrAbout,
     this.ovrEyeVanLovesTech,
     this.ovr,
@@ -164,14 +166,14 @@ class _TopBar extends State<TopBar> {
                         width: 199.0,
                         top: 0,
                         height: 54.0,
-                        child: Container(
-                          width: widget.constraints.maxWidth * 0.138,
-                          height: widget.constraints.maxHeight * 0.394,
-                          decoration: BoxDecoration(
-                            color: Color(0xff125c30),
-                            borderRadius: BorderRadius.all(Radius.circular(30)),
-                          ),
-                        ),
+                        child: widget.ovrRectangle1 ??
+                            Image.asset(
+                              'assets/images/rectangle1.png',
+                              package: 'portfolio',
+                              width: widget.constraints.maxWidth * 0.138,
+                              height: widget.constraints.maxHeight * 0.394,
+                              fit: BoxFit.none,
+                            ),
                       ),
                       Positioned(
                         left: 65.0,
